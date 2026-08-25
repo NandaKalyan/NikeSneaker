@@ -55,7 +55,7 @@ function App() {
 
       targetProgressRef.current = progress;
 
-      setHasScrolled(progress > 0.60);
+      setHasScrolled(progress > 0.57);
 
       setStage(
         progress < 0.34
