@@ -144,7 +144,7 @@ h1 { margin: 0; color: #fff; font-size: clamp(3rem, 8vw, 8rem); font-weight: 200
 @keyframes spin { to { transform: rotate(360deg); } }
 .anchor-section { height: 1px; }
 
-.cosmic-cursor { position: fixed; top: 0; left: 0; z-index: 9999; width: 42px; height: 42px; margin: -13px 0 0 -13px; opacity: 0; pointer-events: none; background: url('/cursor.svg') center / contain no-repeat; transition: opacity 350ms ease; will-change: transform; }
+.cosmic-cursor { position: fixed; top: 0; left: 0; z-index: 9999; width: 42px; height: 42px; margin: -13px 0 0 -13px; opacity: 0; pointer-events: none; background: url('/cursor.png') center / contain no-repeat; transition: opacity 350ms ease; will-change: transform; }
 .cosmic-cursor.is-visible { opacity: 0.82; }
 @media (hover: none), (pointer: coarse) { .cosmic-cursor { display: none; } * { cursor: auto; } }
 @media (max-width: 640px) {
